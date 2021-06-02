@@ -18,4 +18,4 @@ window.auth0Client = await createAuth0Client({
   //handle user reload of browser
   if (sessionStorage.getItem("reload")) await router();
   sessionStorage.setItem("reload", "true");
-})();
+})(); 
